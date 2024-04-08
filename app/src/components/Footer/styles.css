@@ -1,0 +1,14 @@
+.footer {
+  color: #ddd;
+  font-family: "Poppins", Sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: flex;
+  float: right;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}

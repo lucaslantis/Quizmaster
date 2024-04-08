@@ -1,0 +1,62 @@
+.sidenav {
+  width: 250px;
+  background-color: var(--primary-color);
+  transition: 0.5s;
+  overflow: hidden;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 80vh;
+  position: fixed;
+}
+
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #0b334e;
+}
+
+
+.sidenav .logo {
+  font-size: 25px;
+}
+
+.sidenav .logo:hover {
+  background: none;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.pro-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile p {
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.profile p span {
+  font-weight: 400;
+  font-size: 12px;
+  display: block;
+  color: #8e8b8b;
+}
